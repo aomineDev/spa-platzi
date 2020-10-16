@@ -7,7 +7,7 @@
 
 ## Index
 
-- [1. Introducción](#introducción)
+- [1. Introducción](#1.-introducción)
   - [¿Qué es una SPA?](#qué-es-una-spa)
 
 ## 1. Introducción
