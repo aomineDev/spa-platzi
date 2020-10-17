@@ -4,16 +4,19 @@
   "description": "single page aplication",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "webpack serve --config ./webpack.dev.config.js",
+    "build": "webpack --mode production"
   },
   "keywords": [
-    "javascript"
+    "javascript",
+    "spa"
   ],
   "author": "aomineDev",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.1",
     "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.2.1",
     "html-webpack-plugin": "^4.5.0",
     "standard": "^14.3.4",
     "webpack": "^5.1.3",

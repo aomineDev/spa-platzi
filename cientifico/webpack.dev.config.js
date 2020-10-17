@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
+  mode: 'development',
   entry: {
     app: './src/index.js'
   },
@@ -23,6 +24,10 @@ module.exports = {
         }
       }
     ]
+  },
+  devServer: {
+    port: 3000,
+    open: true
   },
   plugins: [
     new HtmlWebpackPlugin({
